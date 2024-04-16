@@ -1,0 +1,25 @@
+.card {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation: cards 4s infinite linear;
+}
+
+@keyframes cards {
+    0% {
+        transform: translateX(200px);
+        background-color: green
+    }
+    50% {
+        transform: translateX(0);
+    }
+    60% {
+        transform: translateY(200px);
+    }
+    70% {
+        transform: translateY(0px);
+    }
+    80% {
+        transform: translateX(-200px);
+    }
+}
